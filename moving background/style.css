@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#container {
+    position: relative;
+    height:100% ;
+    width: 100%;
+    
+
+}
+   #image {
+       position: relative;
+       width: 110%;
+       height: 110%;
+       background-image: url("images/background.jpeg");
+       background-position: center;
+    
+       transition: all 300 ease;
+   } 
