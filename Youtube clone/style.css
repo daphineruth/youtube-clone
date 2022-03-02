@@ -136,8 +136,9 @@ nav{
 .container{
     background: #f9f9f9;
     padding-left: 17%;
-    padding-right: 20px;
+    padding-right: 2%;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .large-container {
@@ -187,4 +188,34 @@ border-radius: 5px;
     font-weight: 600;
     display: block;
     margin-bottom: 5px;
+}
+
+@media (max-width: 900px) {
+    .menu-icon {
+        display: none;
+
+    }
+    .sidebar {
+        display: none;
+    }
+    .container, .large-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .nav-right img {
+        display: none;
+    }
+    .nav-right .user-icon {
+        display: block;
+        width: 30px;
+    }
+    .nav-middle .search-box input {
+        width: 100px;
+    }
+    .nav-middle .mic-icon{
+        display: none;
+    }
+    .logo {
+        width: 90px;
+    }
 }
