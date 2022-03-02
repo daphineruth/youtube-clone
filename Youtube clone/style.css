@@ -1,4 +1,5 @@
-*{padding: 0;
+*{ 
+padding: 0;
 margin: 0;
 font-family: popins,sans-serif;
 box-sizing: border-box;
@@ -25,7 +26,6 @@ nav{
      position: sticky;
      top: 0;
      z-index: 10;
-     background: #5a5a5a;
      
 
 }
@@ -53,13 +53,11 @@ nav{
 
 }
 .nav-middle .search-box{
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     margin-right:15px;
     padding: 8px 12px;
-    border-radius: 10%;
-
-
-     
+    border-radius: 50px;
+         
 }
 .nav-middle .search-box input{
     width: 400px;
@@ -67,7 +65,8 @@ nav{
     outline: 0;
     background: transparent;
 }
-.nav-middle .search-box img{
+
+.nav-middle .search-box img {
     width: 15px;
 }
 
@@ -90,7 +89,7 @@ nav{
     align-items: center;
     margin-bottom: 20px;
     width: fit-content;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 .shortcut-links a:first-child {
     color: #ed3833;
@@ -119,4 +118,32 @@ nav{
     width: 25px;
     border-radius: 50%;
     margin-right: 20px;
+}
+.small-sidebar {
+    width: 5%;
+}
+.small-sidebar a p {
+    display: none;
+}
+.small-sidebar h3 {
+    display: none;
+}
+.small-sidebar hr {
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.container{
+    background: #f9f9f9;
+    padding-left: 17%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner img {
+    
 }
